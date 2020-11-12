@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruivo Car</title>
+
+</head>
+<body>
+    <div class="container">
+        <header class="company-info">
+            <h2 id="name"></h2>
+            <h3 id="contact"></h3>
+        </header>
+        <form action="" class="form">
+            <ul>
+                <li>
+                    <label for="image">Imagem:</label>
+                    <input type="url" id="image">
+                </li>
+                <li>
+                    <label for="model">Montadora / Modelo:</label>
+                    <input type="text" id="model">
+                </li>
+                <li>
+                    <label for="year">Ano:</label>
+                    <input type="text" id="year">
+                </li>
+                <li>
+                    <label for="license">Placa:</label>
+                    <input type="text" id="plate">
+                </li>
+                <li>
+                    <label for="color">Cor:</label>
+                    <input type="text" id="color">
+                </li>
+                <li>
+                    <button type="submit">Cadastrar</button>
+                </li>
+            </ul>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Imagem do carro</th>
+                    <th>Montadora / Modelo</th>
+                    <th>Ano</th>
+                    <th>Placa</th>
+                    <th>Cor</th>
+                </tr>
+            </thead>
+            <tbody id="table-car">
+
+            </tbody>
+        </table>
+    </div>
+    
+    <script src="dom.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
